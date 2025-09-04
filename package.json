@@ -21,6 +21,9 @@
     "format.fix": "prettier --write .",
     "typecheck": "tsc"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",
     "axios": "^1.7.9",
