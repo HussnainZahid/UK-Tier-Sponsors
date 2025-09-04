@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import path from "path";
 
-// Server build configuration
+// Server build configuration for Vercel
 export default defineConfig({
   build: {
     lib: {
@@ -11,7 +11,7 @@ export default defineConfig({
       formats: ["es"],
     },
     outDir: "dist/server",
-    target: "node22",
+    target: "node18", // ✅ Vercel supports Node 18 LTS
     ssr: true,
     rollupOptions: {
       external: [
@@ -29,9 +29,10 @@ export default defineConfig({
         "buffer",
         "querystring",
         "child_process",
-        // External dependencies that should not be bundled
+        // External dependencies (don’t bundle these)
         "express",
         "cors",
+        "mongoose" // ✅ add mongoose as external
       ],
       output: {
         format: "es",
