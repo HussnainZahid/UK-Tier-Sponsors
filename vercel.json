@@ -2,25 +2,17 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/spa/index.html",
-      "use": "@vercel/static"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/spa" }
     },
     {
-      "src": "dist/server/node-build.mjs",
+      "src": "server/index.ts",
       "use": "@vercel/node"
     }
   ],
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "dist/server/node-build.mjs"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "dist/spa/index.html"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+    { "src": "/api/(.*)", "dest": "server/index.ts" },
+    { "src": "/(.*)", "dest": "dist/spa/$1" }
+  ]
 }
