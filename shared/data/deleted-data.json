@@ -1,0 +1,72 @@
+[
+  {
+    "Company": "UK HEALTH KITS LTD",
+    "Town": "Manchester",
+    "Industry": "Medical",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "HOUSE OF CREATIONS LIMITED",
+    "Town": "Manchester",
+    "Industry": "Computer Programming",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "Customer Systems Limited",
+    "Town": "Bracknell",
+    "Industry": "Computer Programming",
+    "Main tier": "Worker (A rating),Worker (A rating)",
+    "Sub tier": "Skilled Worker,Global Business Mobility: Senior or Specialist Worker"
+  },
+  {
+    "Company": "MR. M EGG LTD",
+    "Town": "Northolt,",
+    "Industry": "Food & Accomodation",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "Elite Class International Limited",
+    "Town": "Isleworth",
+    "Industry": "Wholesale & Retail",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "Zamood Limited",
+    "Town": "Romford",
+    "Industry": "Social Work",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "Nisacraftcare Limited",
+    "Town": "Alperton",
+    "Industry": "Social Work",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "HEYO LIMITED",
+    "Town": "London",
+    "Industry": "Computer Programming",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "SW & H Limited",
+    "Town": "Winchester",
+    "Industry": "Architecture",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  },
+  {
+    "Company": "Vama Spa Ltd",
+    "Town": "Ringwood",
+    "Industry": "Others",
+    "Main tier": "Worker (A rating)",
+    "Sub tier": "Skilled Worker"
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 36" width="600" height="360" aria-labelledby="title desc" role="img">
+  <title id="title">United Kingdom Flag</title>
+  <desc id="desc">A stylized depiction of the Union Jack, the national flag of the United Kingdom.</desc>
+  <rect width="60" height="36" fill="#012169"/>
+  <!-- White diagonals -->
+  <polygon points="0,0 6,0 60,26 60,36 54,36 0,10" fill="#FFF"/>
+  <polygon points="60,0 54,0 0,26 0,36 6,36 60,10" fill="#FFF"/>
+  <!-- Red diagonals -->
+  <polygon points="0,0 2.5,0 60,23 60,28 57.5,28 0,5" fill="#C8102E"/>
+  <polygon points="60,0 57.5,0 0,23 0,28 2.5,28 60,5" fill="#C8102E"/>
+  <!-- White cross -->
+  <rect x="0" y="14" width="60" height="8" fill="#FFF"/>
+  <rect x="26" y="0" width="8" height="36" fill="#FFF"/>
+  <!-- Red cross -->
+  <rect x="0" y="16" width="60" height="4" fill="#C8102E"/>
+  <rect x="28" y="0" width="4" height="36" fill="#C8102E"/>
+</svg>
